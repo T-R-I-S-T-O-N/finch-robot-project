@@ -24,26 +24,35 @@ public static void main(String[] args) {
 
 //     // back to bottom right
     bird.setTurn("L", 129.7, 100);
-    bird.setMove("F", 10.5, 100);
-    bird.setTurn("R", 89.5, 100);
+    bird.setMove("F", 10.3, 100);
+    bird.setTurn("R", 93, 100);
     bird.setMove("F", 10, 100);
     
 //     // form the thrusters
     bird.setTurn("L", 45, 100);
-    bird.setMove("F", 10, 100);
+    bird.setMove("F", 5, 100);
   
   
-    bird.setTurn("R", 140, 100);
-//     bird.setMove("F", 8, 100);
-   
+    bird.setTurn("R", 137, 100);
+bird.setMove("F", 17.5, 100);
+bird.setTurn("R", 137, 100);
+bird.setMove("F", 5, 100);
     
-      
+bird.playNote(65, 1.0);  
+bird.pause(1);
 
+bird.playNote(67, 1.0);  
+bird.pause(1);
 
+bird.playNote(69, 1.0);  
+bird.pause(1);
 
+bird.playNote(66, 1.0);  
+bird.pause(1);
 
-    bird.playNote(63,3);
-    
+bird.playNote(72, 2.0);  
+bird.pause(1);
+
     
     
 }
