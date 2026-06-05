@@ -31,6 +31,7 @@ bird.setTurn("L", 90, 100);
 bird.setMove("F", 10, 100);
 
 //    // the top
+// makeTop(bird);
 bird.setTurn("L", 45, 100);
 bird.setMove("F", 8, 100);
 bird.setTurn("L", 100, 100);
